@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1059238128864",
+    "project_id": "phonerentapp",
+    "storage_bucket": "phonerentapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1059238128864:android:0dd194b15cbaae39bf3485",
+        "android_client_info": {
+          "package_name": "com.navpreet.phonerentapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1059238128864-efq70enrq8lajojka308oec76tmoouhv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAfFQRcAeXFSJN5y3GYSQOvGtpNSf-5ziQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1059238128864-efq70enrq8lajojka308oec76tmoouhv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

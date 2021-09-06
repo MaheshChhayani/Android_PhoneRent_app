@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white_smoke"
+    android:clickable="true"
+    android:padding="5dp"
+    tools:context=".MobileDetailsActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white_smoke"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/textMobileName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:fontFamily="cursive"
+            android:text=""
+            android:textFontWeight="900"
+            android:textSize="30sp" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:fontFamily="cursive"
+            android:scrollbars="vertical"
+            android:text="Performance:"
+            android:textFontWeight="900"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/textPerformance"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif-black"
+            android:scrollbars="vertical"
+            android:text=""
+            android:textColor="@color/teal_700"
+            android:textFontWeight="900"
+            android:textSize="25sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:fontFamily="cursive"
+            android:scrollbars="vertical"
+            android:text="Battery:"
+            android:textFontWeight="900"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/textBattery"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif-black"
+            android:scrollbars="vertical"
+            android:text=""
+            android:textColor="@color/teal_700"
+            android:textFontWeight="900"
+            android:textSize="25sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:fontFamily="cursive"
+            android:scrollbars="vertical"
+            android:text="Camera:"
+            android:textFontWeight="900"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/textCamera"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif-black"
+            android:scrollbars="vertical"
+            android:text=""
+            android:textColor="@color/teal_700"
+            android:textFontWeight="900"
+            android:textSize="25sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:fontFamily="cursive"
+            android:scrollbars="vertical"
+            android:text="Display:"
+            android:textFontWeight="900"
+            android:textColor="@color/teal_700"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/textDisplay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif-black"
+            android:scrollbars="vertical"
+            android:text=""
+            android:textFontWeight="900"
+            android:textSize="25sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:fontFamily="cursive"
+            android:scrollbars="vertical"
+
+            android:text="Price:"
+            android:textFontWeight="900"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/textPrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:fontFamily="sans-serif-black"
+            android:scrollbars="vertical"
+            android:textColor="@color/teal_700"
+            android:text=""
+            android:textFontWeight="900"
+            android:textSize="25sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:fontFamily="cursive"
+            android:scrollbars="vertical"
+            android:text="Rent Price:"
+            android:textFontWeight="900"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/textRentPrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:fontFamily="sans-serif-black"
+            android:scrollbars="vertical"
+            android:text=""
+            android:textColor="@color/teal_700"
+            android:textFontWeight="900"
+            android:textSize="25sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:fontFamily="cursive"
+            android:scrollbars="vertical"
+            android:text="Rent By:"
+            android:textFontWeight="900"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/textRentBy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:fontFamily="sans-serif-black"
+            android:scrollbars="vertical"
+            android:text=""
+            android:textColor="@color/teal_700"
+            android:textFontWeight="900"
+            android:textSize="25sp" />
+
+    </LinearLayout>
+</ScrollView>
